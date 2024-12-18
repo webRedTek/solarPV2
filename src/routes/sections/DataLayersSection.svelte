@@ -79,7 +79,7 @@
   let layer: Layer | undefined;
   let imageryQuality: 'HIGH' | 'MEDIUM' | 'LOW';
 
-  let playAnimation = true;
+  let playAnimation = false;
   let tick = 0;
   let month = 0;
   let day = 14;
