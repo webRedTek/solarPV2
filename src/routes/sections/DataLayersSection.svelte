@@ -94,7 +94,7 @@
       layer = undefined;
 
       // Default values per layer.
-      showRoofOnly = ['annualFlux', 'monthlyFlux', 'hourlyShade'].includes(layerId);
+      showRoofOnly = ['rgb'].includes(layerId);
       map.setMapTypeId(layerId == 'rgb' ? 'roadmap' : 'satellite');
       overlays.map((overlay) => overlay.setMap(null));
       month = layerId == 'hourlyShade' ? 3 : 0;
