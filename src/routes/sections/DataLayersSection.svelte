@@ -86,7 +86,7 @@
   let hour = 0;
 
   let overlays: google.maps.GroundOverlay[] = [];
-  let showRoofOnly = false;
+  let showRoofOnly = true;
   async function showDataLayer(reset = false) {
     if (reset) {
       dataLayersResponse = undefined;
